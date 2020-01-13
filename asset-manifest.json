@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/NaZdrowie-Restaurant-V2/static/css/main.7c9d4c27.chunk.css",
+    "main.js": "/NaZdrowie-Restaurant-V2/static/js/main.d0cff7f5.chunk.js",
+    "main.js.map": "/NaZdrowie-Restaurant-V2/static/js/main.d0cff7f5.chunk.js.map",
+    "runtime-main.js": "/NaZdrowie-Restaurant-V2/static/js/runtime-main.3f9b4371.js",
+    "runtime-main.js.map": "/NaZdrowie-Restaurant-V2/static/js/runtime-main.3f9b4371.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/NaZdrowie-Restaurant-V2/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.9ddc0395.chunk.js": "/NaZdrowie-Restaurant-V2/static/js/2.9ddc0395.chunk.js",
+    "static/js/2.9ddc0395.chunk.js.map": "/NaZdrowie-Restaurant-V2/static/js/2.9ddc0395.chunk.js.map",
+    "index.html": "/NaZdrowie-Restaurant-V2/index.html",
+    "precache-manifest.bccec74a4a25977781e7daa4634c6cf7.js": "/NaZdrowie-Restaurant-V2/precache-manifest.bccec74a4a25977781e7daa4634c6cf7.js",
+    "service-worker.js": "/NaZdrowie-Restaurant-V2/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/NaZdrowie-Restaurant-V2/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.7c9d4c27.chunk.css.map": "/NaZdrowie-Restaurant-V2/static/css/main.7c9d4c27.chunk.css.map",
+    "static/js/2.9ddc0395.chunk.js.LICENSE": "/NaZdrowie-Restaurant-V2/static/js/2.9ddc0395.chunk.js.LICENSE",
+    "static/media/App.css": "/NaZdrowie-Restaurant-V2/static/media/jumbotron.59625d46.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f9b4371.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.9ddc0395.chunk.js",
+    "static/css/main.7c9d4c27.chunk.css",
+    "static/js/main.d0cff7f5.chunk.js"
+  ]
+}
