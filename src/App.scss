@@ -1,0 +1,194 @@
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #FONTS# */
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #COLORS# */
+$colorPrimary: red;
+$colorSecondary: white;
+$colorTertiary: rgba(0, 0, 0, 0.918);
+$colorFont: rgb(69, 69, 69);
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #HTML TAGS# */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $colorFont;
+}
+table {
+    width: 100%;
+    background-color: whitesmoke;
+    border: solid 1px black;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #COMPONENTS# */
+/* Component: Navigation bar */
+.componentNavigationBar {
+    background-color: $colorTertiary !important;
+    height: 5rem;
+    a{
+        color: $colorSecondary !important;
+    }
+    button.navbar-toggler.collapsed {
+        color: $colorSecondary !important;
+    }
+    img {
+        margin-right: 0.2rem;
+        width: 35px;
+        height: 35px;
+    }
+    img:hover {
+        width: 40px;
+        height: 40px;
+    }
+    .nav-item{
+        text-align: right;
+    }
+}
+
+/* Component: Jumbotron */
+.jumbotron {
+    height: 15rem;
+    margin: 0rem 0rem 4rem 0rem !important;
+    background-image: url("../src/components/Jumbotron/jumbotron.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.jumbotronTitle {
+    text-decoration: underline;
+}
+/* Component: Chatbot */
+.componentChatbot {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 2;
+    .cross {
+        position:absolute;
+        top:0;
+        right: 0;
+        width: 35px;
+        height: 30px;
+        color: rgb(248, 248, 248);
+        background-color: transparent;
+        border: none;
+    }
+    .chatbotButtonOpen {
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+        background-image: url("%PUBLIC_URL%/assets/img/logo/logowhite.png");
+        background-color: transparent;
+        border: none;
+        z-index: 1;
+    }
+}
+/* Component: Footer */
+.componentFooter {
+    height: 3rem;
+    background-color: $colorTertiary;
+    color: wheat;
+    .footerIcon.fa {
+        color: white !important;     
+    }
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #SECTIONS# */
+/* Page-Home: news section */
+.sectionNews {
+    img {
+        height: 100%;
+        width: 100%;
+        float: inline-end;
+    }
+}
+/* Page-Home: newest menu sefloat: inline-end;ction */
+.sectionNewestMenu {
+    img {
+        height: 100%;
+        width: 100%;
+        float: inline-end;
+    }
+}
+/* Page-Menus: Menus of the month section */
+.sectionMenusOfTheMonth {
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.btn-link {
+    color: black;
+}
+.btn-link:hover{
+    color: red;
+}
+/* Page-Contact: Map section */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.hide {display: none;}
+.show {display: inline-block;}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #ANIMATIONS# */
+$ease: cubic-bezier(.47,.01,0,1.01);
+
+.jumbTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(calc(-50% - 12px),calc(-50% + 12px),0);
+  
+    mix-blend-mode: screen;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px white, 
+              0px 0px white, 
+              0px 0px white,            
+              0px 0px white, 
+              0px 0px white,
+              0px 0px white,
+              0px 0px white,
+              0px 0px white,
+              0px 0px white,
+              0px 0px white,
+              0px 0px white;
+    opacity:0;
+    animation: revolve 2s $ease forwards 0.5s; 
+    
+    @keyframes revolve {
+      to{
+        opacity:1;
+         transform: translate3d(-50%,-50%,0);
+        text-shadow: -2px 1px white, 
+            -3px 2px white, 
+            -4px 3px white,            
+            -5px 4px white, 
+            -6px 5px white,
+            -7px 6px white,
+            -8px 7px white,
+            -9px 8px white,
+            -10px 9px white,
+            -11px 10px white,
+            -12px 11px white;
+      }
+    }
+  }

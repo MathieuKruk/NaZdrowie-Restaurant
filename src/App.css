@@ -1,0 +1,198 @@
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #FONTS# */
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #COLORS# */
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #HTML TAGS# */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #454545;
+}
+
+table {
+  width: 100%;
+  background-color: whitesmoke;
+  border: solid 1px black;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #COMPONENTS# */
+/* Component: Navigation bar */
+.componentNavigationBar {
+  background-color: rgba(0, 0, 0, 0.918) !important;
+  height: 5rem;
+}
+
+.componentNavigationBar a {
+  color: white !important;
+}
+
+.componentNavigationBar button.navbar-toggler.collapsed {
+  color: white !important;
+}
+
+.componentNavigationBar img {
+  margin-right: 0.2rem;
+  width: 35px;
+  height: 35px;
+}
+
+.componentNavigationBar img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.componentNavigationBar .nav-item {
+  text-align: right;
+}
+
+/* Component: Jumbotron */
+.jumbotron {
+  height: 15rem;
+  margin: 0rem 0rem 4rem 0rem !important;
+  background-image: url("../src/components/Jumbotron/jumbotron.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotronTitle {
+  text-decoration: underline;
+}
+
+/* Component: Chatbot */
+.componentChatbot {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 2;
+}
+
+.componentChatbot .cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 30px;
+  color: #f8f8f8;
+  background-color: transparent;
+  border: none;
+}
+
+.componentChatbot .chatbotButtonOpen {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background-image: url("%PUBLIC_URL%/assets/img/logo/logowhite.png");
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+
+/* Component: Footer */
+.componentFooter {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.918);
+  color: wheat;
+}
+
+.componentFooter .footerIcon.fa {
+  color: white !important;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #SECTIONS# */
+/* Page-Home: news section */
+.sectionNews img {
+  height: 100%;
+  width: 100%;
+  float: inline-end;
+}
+
+/* Page-Home: newest menu sefloat: inline-end;ction */
+.sectionNewestMenu img {
+  height: 100%;
+  width: 100%;
+  float: inline-end;
+}
+
+/* Page-Menus: Menus of the month section */
+.sectionMenusOfTheMonth img {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-link {
+  color: black;
+}
+
+.btn-link:hover {
+  color: red;
+}
+
+/* Page-Contact: Map section */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+/* #ANIMATIONS# */
+.jumbTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(calc(-50% - 12px), calc(-50% + 12px), 0);
+          transform: translate3d(calc(-50% - 12px), calc(-50% + 12px), 0);
+  mix-blend-mode: screen;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px white,  0px 0px white,  0px 0px white,             0px 0px white,  0px 0px white, 0px 0px white, 0px 0px white, 0px 0px white, 0px 0px white, 0px 0px white, 0px 0px white;
+  opacity: 0;
+  -webkit-animation: revolve 2s cubic-bezier(0.47, 0.01, 0, 1.01) forwards 0.5s;
+          animation: revolve 2s cubic-bezier(0.47, 0.01, 0, 1.01) forwards 0.5s;
+}
+
+@-webkit-keyframes revolve {
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+    text-shadow: -2px 1px white,  -3px 2px white,  -4px 3px white,             -5px 4px white,  -6px 5px white, -7px 6px white, -8px 7px white, -9px 8px white, -10px 9px white, -11px 10px white, -12px 11px white;
+  }
+}
+
+@keyframes revolve {
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+    text-shadow: -2px 1px white,  -3px 2px white,  -4px 3px white,             -5px 4px white,  -6px 5px white, -7px 6px white, -8px 7px white, -9px 8px white, -10px 9px white, -11px 10px white, -12px 11px white;
+  }
+}
+/*# sourceMappingURL=App.css.map */
