@@ -21,72 +21,89 @@ My older version of the the project: <br>
 
 ## ◾ Motivation
 
-It has been launch the 💠06/09/2019💠 in the case of a school project (<a href="https://github.com/becodeorg" target="_blank">BeCode</a>).
+It has been launch the 💠13/11/2019💠 in the case of a school project (<a href="https://github.com/becodeorg" target="_blank">BeCode</a>).
 
 Below, you will find our guidelines hosted on the school repo: 
 ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️
 
-== Missions objectives
+Once upon a time *you made a website* for a restaurant franchise. Now and after
+hearing about the wonderful work you did for the _COGIP_ from _Jean-Christian
+Ranu_ and _Muriel Perrache_, their best customers, the owner is calling you back
+to implement new features and *improve the website*.
 
-At the end of this challenge you should have improved your:
+Sadly, he can only pay you for a week of work, which *won't be enough time* to
+implement all his ideas. Hopefully, he's ready to make compromises, you have to
+*implement as much as you can* in the given time.
 
-* placement of element with *Bootstrap*
+.Instructions
+* take back your old link:../03-HTML-CSS/bootstrap/restaurant.adoc[project] 
+* implement at least one new feature
+* improve the design (if you have time)
+* use whatever technology you want
 
+NOTE: You don't have to fill any form for this project, as it's a learning
+challenge. However, if you feel it could unlock *badges* you can try to claim
+them with it.
 
-== The mission
+=== Features
 
-Create a repository called _restaurant-css-framework_ in which you must realise
-a window web page for a restaurant. The franchise is fictive, but the type of
-food (burger, pizza, asian, ...) is your choice.
+==== Chatbot
 
-The website must be *responsive*, at least for small and medium screens. It must
-at least have five accessible pages: welcome, menu, pictures, restaurants and
-contact.
+One of the idea the owner had was to implement a {chatbot}[chatbot] to the
+website. The goal is to answer the common asked questions of the customers in an
+interactive way.
 
-.Welcome
-A page with one _Jumbotron_ and two panels to show news (promo, events, etc...).
+[%header]
+|===
+| Frequently asked questions | Answers
 
-.Menu
-A page with the restaurant menu in the form of a grouped list with badges.
+| What are the opening hours?
+| The opening hours are from <time> to <time>
 
-.Pictures
-A page with a gallery of minimum 10 pictures and a pagination (3 photos per
-page).
+| Do you deliver?
+| Yes, we do.
 
-.Restaurant
-A page about the restaurants (it's a franchise) with its addresses, a map, and
-different schedules.
+| Do you like accounting?
+| No Ranu, stop stalking me.
+|===
 
-.Contact
-A page with a contact form containing the firstname, lastname, email, subject of
-the message (a drop-down list with multiple options), an area for the message
-itself and a send button with an icon. Each entry as a title in a semantically
-correct tag.
+Feel free to propose new questions/answers to the customer.
 
-If you want to make an even more complex website feel free to try new things and
-make it as beautiful as possible.
+==== Shop
 
-=== Instructions
-* create the repository
-* write a good *README*
-* don't use a pre-made theme
-* mention a description and the website URL on the top of the repo
-* use ONLY royalty-free pictures AND credit in your readme the website where the pictures are from
+Another, much needed feature would be an online shop to order food from the menu
+page. It should be able to calculate the VAT, and the delivery price, as well
+as, deduce money if the customer as a promotion code (_ViveLaCOGIP_).
 
-=== Advices
+For the delivery price, you can do it the easy way and use a fix price or the
+fun way and calculate it in regards to the distance from the customer house to
+one of the restaurants (hint: API).
 
-. Read the instructions well.
-. Take time to prepare (prototype, content, pictures, ...).
-. Go step by step, *HTML*, then *classes* and *id* and finally *CSS*.
+==== Guest book
 
-=== Optional
+Finally, the owner would like to have a new {guestbook}[guest book] page to
+receive comments, kind words or advice from the customers. However, it ideally
+need to be made with the *google sheet API* to allow the owner to check
+everything directly from his _google account_.
 
-* use *SASS*
+The form should at least contain:
+
+* customer name
+* visited restaurant
+* visit date
+* comment (optional input)
+
+==== Geolocalisation
+
+A _nice to have_ would be to allow the visitor to enter his address on an input
+near the map to check the closest restaurant.
 
 === Resources
 
-* https://tinyurl.com/y2nlxere[README]
-* http://glyphicons.com/[glyphicons]
+* https://botman.io/[botman] 
+* https://getcomposer.org/[composer]
+* https://tinyurl.com/yxda5q7o[add composer on a docker image]
+* https://developers.google.com/sheets/api/quickstart/php[google sheet API]
 
 ▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️
 
