@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NaZdrowie-Restaurant-V2/precache-manifest.bccec74a4a25977781e7daa4634c6cf7.js"
+  "/NaZdrowie-Restaurant-V2/precache-manifest.d5a5884f9205f4b28f6b4398b221d135.js"
 );
 
 self.addEventListener('message', (event) => {
