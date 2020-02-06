@@ -149,10 +149,7 @@ Logs
    - [Sass](https://sass-lang.com/)
    - [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
    
-2. Back-end
-   - [Node.js](https://nodejs.org/en/)
-   
-3. Others
+2. Others
    - [Dialogflow](https://dialogflow.com/)
 
 <hr>
