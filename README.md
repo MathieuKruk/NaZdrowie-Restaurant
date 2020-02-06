@@ -191,7 +191,12 @@ OpenSource | Free
 
 <hr>
 
-✍️ Readme Author: Mathieu Kruk 
-<p align="left">
-  <img src="https://media.giphy.com/media/114NEaW5Q5Gikw/giphy.gif">
+✍️ Readme Author:
+<br>
+<p>
+  <a href="https://github.com/MathieuKruk">Mathieu Kruk</a>
+</p>
+
+<p align="right">
+  <img src="https://media.giphy.com/media/114NEaW5Q5Gikw/giphy.gif" height="40%" width="25%">
 </p>
