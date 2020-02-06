@@ -190,10 +190,9 @@ Special thanks to:
 OpenSource | Free
 
 <hr>
-<br>
 
 <p align="right">
-  ✍️ Readme Author:
+  ✍️ Readme Author:<br>
   <a href="https://github.com/MathieuKruk">Mathieu Kruk</a>
 </p>
 
