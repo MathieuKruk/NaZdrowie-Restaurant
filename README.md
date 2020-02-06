@@ -115,8 +115,6 @@ near the map to check the closest restaurant.
 - [x] First static version of the website.
 - [ ] Launch the app.
 
-ℹ️ For further informations, please make sure to visit my **Trello** [board](https://trello.com/b/wkDPM6CS/na-zdrowie-restaurant) (only in french).
-
 <hr>
 
 ## ◾ Build status
