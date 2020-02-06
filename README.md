@@ -193,7 +193,7 @@ OpenSource | Free
 
 ✍️ Readme Author:
 <br>
-<p>
+<p align="right">
   <a href="https://github.com/MathieuKruk">Mathieu Kruk</a>
 </p>
 
